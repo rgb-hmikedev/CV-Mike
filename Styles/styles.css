@@ -145,7 +145,7 @@ header {
 }
 
 .logo-icon {
-  width: 70px;
+  width: 400px;
   height: 70px;
   background: linear-gradient(135deg, var(--azul-brillante), var(--cyan));
   border-radius: 12px;
@@ -157,8 +157,8 @@ header {
 }
 
 .logo-img {
-  width: 150%;
-  height: 150%;
+  width: 180%;
+  height: 180%;
   object-fit: contain;
   padding: 10px;
 }
