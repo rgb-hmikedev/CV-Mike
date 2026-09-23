@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <title>DevStudio | Desarrollo Web & Diseño Digital</title>
+  <title>DevStudio | Diseño & Desarrollo Web Premium</title>
   
-  <!-- Fuentes Google - Mix editorial -->
+  <!-- Fuentes Google -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800;14..32,900&family=Space+Grotesk:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
@@ -29,11 +29,12 @@
     <!-- Header glassmorphism -->
     <header id="header">
       <div class="header-inner">
-      <a href="#" class="logo-link">
-  <div class="logo-icon">
-    <img src="./Assets/logo-sin fondo.png" alt="DevStudio Logo" class="logo-img">
-  </div>
-</a>
+        <a href="#" class="logo-link">
+          <div class="logo-icon">
+            <!-- LOGO PRINCIPAL: Reemplaza con tu logo -->
+            <img src="./Assets/logo-sin fondo.png" alt="Logo" class="logo-img">
+          </div>
+        </a>
         <nav class="main-nav">
           <a href="#hero" class="nav-item active">Inicio</a>
           <a href="#servicios" class="nav-item">Servicios</a>
@@ -70,6 +71,7 @@
         <div class="hero-visual-block">
           <div class="visual-frame">
             <div class="visual-inner">
+              <!-- FOTO DE PERFIL: Reemplaza con tu foto -->
               <img src="./Assets/yo-ia.png" alt="Desarrollador" class="profile-hero-img">
             </div>
             <div class="visual-glow"></div>
@@ -104,7 +106,6 @@
         <span>Next.js</span><span class="marquee-dot">·</span>
         <span>Tailwind</span><span class="marquee-dot">·</span>
         <span>Python</span><span class="marquee-dot">·</span>
-        <!-- Repetidos para loop -->
         <span>React</span><span class="marquee-dot">·</span>
         <span>Node.js</span><span class="marquee-dot">·</span>
         <span>TypeScript</span><span class="marquee-dot">·</span>
@@ -116,7 +117,7 @@
       </div>
     </div>
 
-    <!-- SERVICIOS - Diseño editorial -->
+    <!-- SERVICIOS -->
     <section class="services-editorial" id="servicios">
       <div class="section-header">
         <span class="section-tag">Servicios</span>
@@ -181,7 +182,7 @@
       </div>
     </section>
 
-    <!-- SECCIÓN DE PROCESO (NUEVA - inspirada en Undertk) -->
+    <!-- PROCESO -->
     <section class="process-section" id="proceso">
       <div class="section-header">
         <span class="section-tag">Proceso</span>
@@ -219,64 +220,80 @@
       </div>
     </section>
 
-    <!-- PORTAFOLIO - Grid editorial -->
+    <!-- PORTAFOLIO - CON LINKS A PROYECTOS -->
     <section class="portfolio-editorial" id="portafolio">
       <div class="section-header">
         <span class="section-tag">Portafolio</span>
         <h2 class="section-heading">Proyectos <span class="text-accent">destacados</span></h2>
       </div>
       <div class="portfolio-grid">
-        <div class="portfolio-item large reveal-portfolio">
+        
+        <!-- ===== PROYECTO 1 ===== -->
+        <!-- 
+          📸 IMAGEN: Reemplaza "img/proyecto-1.jpg" con tu imagen
+          🔗 LINK: Reemplaza "https://tu-proyecto-1.com" con la URL real
+        -->
+        <a href="https://dogogalaxy.com/" target="_blank" rel="noopener" class="portfolio-item large reveal-portfolio">
           <div class="portfolio-image">
-            <img src="./Assets/dogogalaxy.png" alt="">
-            <div class="portfolio-img-bg bg-1"></div>
+            <img src="./Assets/dogogalaxy.png" alt="E-commerce Moda Urbana" class="portfolio-img">
           </div>
           <div class="portfolio-info">
-            <span class="portfolio-cat">DogoGalaxy</span>
-            <h3>Productora de racks automotrices</h3>
+            <span class="portfolio-cat">Dogo Galaxy</span>
+            <h3>Racks automotrices</h3>
             <p>+40% conversión con rediseño UX/UI completo</p>
+            <span class="portfolio-link-text">Ver proyecto →</span>
           </div>
-        </div>
-        <div class="portfolio-item reveal-portfolio">
+        </a>
+        
+        <!-- ===== PROYECTO 2 ===== -->
+        <a href="https://m32constructora.netlify.app/" target="_blank" rel="noopener" class="portfolio-item reveal-portfolio">
           <div class="portfolio-image">
-            <div class="portfolio-img-bg bg-2"></div>
+            <img src="./Assets/M32.png" alt="App Logística Smart" class="portfolio-img">
           </div>
           <div class="portfolio-info">
-            <span class="portfolio-cat">App Empresarial</span>
-            <h3>Logística Smart</h3>
-            <p>Sistema de inventario con IA</p>
+            <span class="portfolio-cat">Web Empresarial</span>
+            <h3>M32 Cosntructora</h3>
+            <p>CEO personalizado</p>
+            <span class="portfolio-link-text">Ver proyecto →</span>
           </div>
-        </div>
-        <div class="portfolio-item reveal-portfolio">
+        </a>
+        
+        <!-- ===== PROYECTO 3 ===== -->
+        <a href="https://derecha-la-flecha.netlify.app/" target="_blank" rel="noopener" class="portfolio-item reveal-portfolio">
           <div class="portfolio-image">
-            <div class="portfolio-img-bg bg-3"></div>
+            <img src="./Assets/libro.png" alt="Landing Page Startup Tech" class="portfolio-img">
           </div>
           <div class="portfolio-info">
             <span class="portfolio-cat">Landing Page</span>
-            <h3>Startup Tech</h3>
+            <h3>Derecha la Flecha</h3>
             <p>2000 leads en 48 horas</p>
+            <span class="portfolio-link-text">Ver proyecto →</span>
           </div>
-        </div>
-        <div class="portfolio-item wide reveal-portfolio">
+        </a>
+        
+        <!-- ===== PROYECTO 4 ===== -->
+        <a href="https://montenegro-bufete.netlify.app/" target="_blank" rel="noopener" class="portfolio-item wide reveal-portfolio">
           <div class="portfolio-image">
-            <div class="portfolio-img-bg bg-4"></div>
+            <img src="./Assets/bufete.png" alt="Web Corporativa Bufete Legal" class="portfolio-img">
           </div>
           <div class="portfolio-info">
             <span class="portfolio-cat">Web Corporativa</span>
             <h3>Bufete Legal</h3>
-            <p>Portal con gestión documental</p>
+            <p>Web informativa</p>
+            <span class="portfolio-link-text">Ver proyecto →</span>
           </div>
-        </div>
+        </a>
+        
       </div>
     </section>
 
-    <!-- CTA FINAL - Dark block -->
+    <!-- CTA FINAL -->
     <section class="cta-block" id="contacto">
       <div class="cta-block-inner">
         <h2 class="cta-heading">¿Listo para <span class="text-accent-cyan">crear algo</span> increíble?</h2>
         <p class="cta-sub">Cuéntame tu idea. La tecnología y el diseño harán el resto.</p>
         <div class="cta-buttons">
-          <a href="https://wa.me/4422812170" class="btn-primary btn-lg magnetic" target="_blank" rel="noopener">
+          <a href="https://wa.me/4422812170?text=Hola%20DevStudio%2C%20me%20interesa%20un%20proyecto%20web" class="btn-primary btn-lg magnetic" target="_blank" rel="noopener">
             <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347"/></svg>
             WhatsApp
           </a>
@@ -305,7 +322,7 @@
         <div class="footer-social-col">
           <h4>Conéctate</h4>
           <div class="footer-social-links">
-            <a href="www.linkedin.com/in/héctor-montemayor" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/TU-USUARIO" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://github.com/tuusuario" target="_blank" rel="noopener">GitHub</a>
             <a href="https://wa.me/4422812170" target="_blank" rel="noopener">WhatsApp</a>
           </div>
@@ -318,15 +335,15 @@
     </footer>
 
   </div>
-<!-- WhatsApp flotante -->
-<a href="https://wa.me/4422812170?text=Hola%20DevStudio%2C%20me%20interesa%20un%20proyecto" class="whatsapp-float magnetic" target="_blank" rel="noopener" aria-label="WhatsApp">
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="28" height="28" fill="white">
-    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
-  </svg>
-</a>
 
-  <!-- Scripts -->
-  <script src="https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.min.js"></script>
-  <script src="./JS/index.js"></script>
+  <!-- WhatsApp flotante -->
+  <a href="https://wa.me/4422812170?text=Hola%20DevStudio%2C%20me%20interesa%20un%20proyecto" class="whatsapp-float magnetic" target="_blank" rel="noopener" aria-label="WhatsApp">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="28" height="28" fill="white">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+  </a>
+
+  <!-- Script principal (ES Module) -->
+  <script type="module" src="./JS/index.js"></script>
 </body>
 </html>
